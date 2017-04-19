@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 
-import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -44,11 +43,6 @@ public class MainActivity extends AppCompatActivity {
         but4.setOnTouchListener(new MyOnTouchListener(R.raw.sound4));
         but5.setOnTouchListener(new MyOnTouchListener(R.raw.sound5));
         but6.setOnTouchListener(new MyOnTouchListener(R.raw.sound6));
-
-        Measure temp = new Measure();
-        temp.setValue(34);
-        temp.setDate(new Date());
-        temp.save();
     }
 
 
